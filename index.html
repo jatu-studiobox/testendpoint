@@ -80,9 +80,22 @@
 <!-- Import and configure the Firebase SDK -->
 <!-- These scripts are made available when the app is served or deployed on Firebase Hosting -->
 <!-- If you do not serve/host your project using Firebase Hosting see https://firebase.google.com/docs/web/setup -->
-<script src="/__/firebase/7.15.4/firebase-app.js"></script>
-<script src="/__/firebase/7.15.4/firebase-auth.js"></script>
-<script src="/__/firebase/init.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-auth.js"></script>
+<script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyBDlgfXXlRKDHE-VCSyzlmNUGsi9gVnWeY",
+      authDomain: "test-exe91.firebaseapp.com",
+      databaseURL: "https://test-exe91.firebaseio.com",
+      projectId: "test-exe91",
+      storageBucket: "test-exe91.appspot.com",
+      messagingSenderId: "215667265942",
+      appId: "1:215667265942:web:85c02359fbf7658e13cdb7"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
 
 <script src="main.js"></script>
 </body>
