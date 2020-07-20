@@ -35,5 +35,5 @@
   }
 
   // Add gathering event
-  btnGathering.addEventListener('click', onClick);
+  btnTest.addEventListener('click', onClick);
 }());
