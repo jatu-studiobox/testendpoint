@@ -24,7 +24,7 @@
           //     .then(response => response.text())
           //     .then(contents => console.log(contents))
           //     .catch(() => console.log("Can’t access " + url + " response. Blocked by browser?"))
-          // console.log(result);
+          console.log(result);
       } catch (error) {
           console.log(error);
       }
